@@ -22,6 +22,7 @@ jobs:
           fi
           mkdir -p .source-unpacked
           unzip -q lh-review-copilot-source.zip -d .source-unpacked || [ $? -eq 1 ]
+          chmod -R u+rwX .source-unpacked
           cp -a .source-unpacked/. .
           rm -rf .source-unpacked lh-review-copilot-source.zip
           git config user.name "github-actions[bot]"
