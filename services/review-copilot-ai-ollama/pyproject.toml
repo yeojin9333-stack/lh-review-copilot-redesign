@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lh-review-copilot-ai-ollama"
+version = "0.1.0"
+description = "Local Ollama LLM and RAG backend for the LH Review Copilot prototype"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.116,<1",
+  "openpyxl>=3.1,<4",
+  "pydantic>=2.11,<3",
+  "pypdf>=5.9,<7",
+  "python-docx>=1.2,<2",
+  "python-multipart>=0.0.20,<1",
+  "python-pptx>=1.0,<2",
+  "uvicorn[standard]>=0.35,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.28,<1",
+  "pytest>=8.4,<10",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

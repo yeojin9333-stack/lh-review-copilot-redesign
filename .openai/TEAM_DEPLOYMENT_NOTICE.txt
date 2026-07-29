@@ -1,0 +1,14 @@
+TEAM DEPLOYMENT NOTICE
+
+팀 공유 ZIP에는 기존 공개 사이트를 가리키는 hosting.json을 포함하지 않습니다.
+이 파일이 없어도 pnpm dev, pnpm lint, pnpm test와 내장 시나리오 RAG는 동작합니다.
+
+팀원과 AI 도구는:
+
+- .openai/hosting.json을 새로 만들지 않습니다.
+- 새 Sites 프로젝트를 만들지 않습니다.
+- 기존 공개 사이트에 직접 배포하지 않습니다.
+- 검증된 수정본 ZIP과 TEAM_HANDOFF 문서를 통합·배포 담당자에게 전달합니다.
+
+통합·배포 담당자는 기존 원본 프로젝트의 hosting.json을 유지한 상태에서
+팀 수정사항만 병합하고 검증한 뒤 새 버전으로 배포합니다.

@@ -1,0 +1,11 @@
+package: lh-review-copilot-team-share
+release: team-share-20260729-v11-expert-assignment
+application: LH Review Copilot
+deployed-site-version: not deployed from team-share ZIP
+deployed-runtime-commit: this packaged source state
+public-url: https://lh-review-copilot-20260727.geonnii.chatgpt.site
+local-rag-default: scenario-rag-grounded-v1
+
+이 팀 공유본은 역할 선택, 동일 Case 외부 전문가 배정, 선택 BIM 구간 전용 View,
+V1·V2·V3 Closed Decision Loop, 관련 사례 섹션의 단일 재사용률 KPI가 반영된
+v11 전달용 릴리스입니다. hosting.json은 포함하지 않으며 통합 담당자가 배포합니다.

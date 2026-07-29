@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1785132022028,
+      "tag": "0000_fixed_kylun",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1785132035892,
+      "tag": "0001_seed-cases",
+      "breakpoints": true
+    }
+  ]
+}
